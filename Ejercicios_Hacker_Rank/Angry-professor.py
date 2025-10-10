@@ -7,5 +7,5 @@ def angryprofessor(k, a):
         return "Si" #la clase se cancela
     else:
         return"No" #la clase no se cancela
-
+ 
 print(angryprofessor(3, [-2, -1, 0, 1, 2,])), 

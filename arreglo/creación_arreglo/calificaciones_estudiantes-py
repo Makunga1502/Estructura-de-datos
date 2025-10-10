@@ -1,0 +1,12 @@
+calificaciones = [85, 90, 78, 92, 88]
+
+indice = int(input("Ingrese el índice de la calificación que desea modificar (0-4): "))
+print(f"calificiación en la posicion {indice}: {calificaciones[indice]}")
+
+nuevo_valor = float(input("Ingrese la nueva calificación: "))
+calificaciones[indice] = nuevo_valor
+print("Calificaciones actualizadas")
+print("Calificaciones actualizadas:", calificaciones)
+
+promedio = sum(calificaciones) / len(calificaciones)
+print(f"el promedio de las calificaciones es: {promedio}")
