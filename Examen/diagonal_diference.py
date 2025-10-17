@@ -20,7 +20,8 @@ def diagonal_difference(matrix):
     print("\nla primera suma diagonal nos da como resultado:" , primera_diagonal)
     print("la segunda suma diagonal nos da como resultado:" , segunda_diagonal)
 
-    return abs(primera_diagonal - segunda_diagonal)
+    return(primera_diagonal - segunda_diagonal)
 
 resultado = diagonal_difference(matriz)
 print("\nla resta entre las diagonales nos da como resultado:" , resultado)
+
